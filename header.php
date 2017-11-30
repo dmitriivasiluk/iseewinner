@@ -10,7 +10,6 @@
 	
 	<?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"><!--fixed-top-->
 		<div class="container">
 			<div class="navbar-brand">
@@ -25,15 +24,11 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="http://localhost/wordpress/blog/">Прогнозы на футбол</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="http://localhost/wordpress/about/">Обо мне</a>
-					</li>
+					</li>		
 					<li class="nav-item">
 						<a class="nav-link" href="http://localhost/wordpress/contact/">Обратная связь</a>
 					</li>
 				</ul>
-
 			</div>
 		</div>
 	</nav>
